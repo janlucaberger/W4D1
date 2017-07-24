@@ -1,0 +1,25 @@
+.section-parent {
+  display: flex;
+  border-bottom: 1px solid $light-gray;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-parent li {
+  padding: 10px;
+  font-family: $sans-serif;
+}
+
+.section-parent li a:hover {
+  background: $light-gray;
+  border-bottom: none;
+}
+.section-parent li:last-child{
+  text-transform: uppercase;
+  font-size: 10px;
+}
+@media all and (max-width: 1000px) {
+  .section-parent {
+    display: none;
+  }
+}

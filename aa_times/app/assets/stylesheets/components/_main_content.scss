@@ -1,0 +1,46 @@
+.content-parent {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+.section-flex{
+  display: flex;
+}
+.opinion .styled-list li {
+  font-weight: bold;
+}
+.opinion-head {
+  text-align: center;
+  margin: 5px 0px 15px;
+}
+
+.thumbnail{
+  height: 130px;
+}
+
+.thumbnail img{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  margin: 4px 0;
+}
+.comments {
+  font-family: $sans-serif;
+  color: $blue;
+}
+.comments:hover {
+  text-decoration: underline;
+  border-bottom: 0;
+}
+form {
+  margin: 10px 0;
+}
+small {
+  text-align: center;
+  font-family: $sans-serif;
+  color: $gray;
+  display: block;
+}

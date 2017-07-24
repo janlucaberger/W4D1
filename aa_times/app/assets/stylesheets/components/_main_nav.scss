@@ -1,0 +1,57 @@
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  align-items: center;
+  border-bottom: 1px solid $light-gray;
+}
+
+.left-nav > ul,
+.right-nav > ul {
+  display: flex;
+  align-items: center;
+}
+
+.left-nav > ul > li {
+  font-family: $sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 8px;
+  margin-right: 10px;
+  border-radius: 4px;
+
+}
+
+.right-nav > ul > li {
+  margin-left: 5px;
+}
+
+.right-nav > ul > li:last-of-type {
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.left-nav > ul > li:hover,
+.right-nav > ul > li:last-of-type:hover {
+  background-color: $lightest-gray;
+}
+
+.left-nav span {
+  margin-left: 5px;
+}
+
+
+.right-nav i {
+
+}
+
+nav button {
+  display: inline-block; 
+}
+
+@media all and (max-width: 1000px) {
+  nav button {
+    display: none;
+  }
+}
